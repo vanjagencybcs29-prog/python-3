@@ -1,0 +1,11 @@
+m={}
+n=int(input("Enter no. of records:"))
+for i in range(n):
+   num=input("Enter no.")
+   name=input("enter name")
+   m[num]=name
+search=input("enter no. to search")
+if search in m:
+   print("Name",m[search])
+else:
+   print( "not found")
